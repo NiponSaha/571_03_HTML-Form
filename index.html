@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <!-- Heading Start -->
+    <div class="header">
+      <center>
+        <img src="images/gh-logo2.png" alt="company logo" />
+      </center>
+      <h2>We love to hear from you!</h2>
+      <p>
+        As a part of making best leisure time with us in your vaccation, we love
+        to hear your interest on how and what you prefer from our services. Your
+        information is completely safe and unshareable to others. we believe in
+        respecting your privacy.
+      </p>
+      <br />
+    </div>
+    <!-- Heading End -->
+
+    <!-- Form Design Start-->
+    <form action="#" method="get">
+      <table width="1200" height="350">
+        <tr>
+          <td width="50" height="350"></td>
+          <td width="350" height="350">
+            <label for="title"> Title : </label><br /><br />
+            <label for="fname"> First Name : </label><br /><br />
+            <label for="lname"> Last Name : </label><br /><br />
+            <label for="nation"> Nationality : </label><br /><br />
+            <label for="birthdate"> Date of Birth </label><br /><br />
+            <label for="email"> E-mail : </label><br /><br />
+            <label for="phone"> Phone : </label><br /><br />
+            <label for="tour-types"> Available Tours : </label><br /><br />
+          </td>
+          <td width="50" height="350"></td>
+          <td width="750" height="350">
+            <input
+              type="radio"
+              class="title"
+              id="title"
+              name="gender"
+              value="male"
+            />
+            Mr.
+            <input
+              type="radio"
+              class="title"
+              id="title"
+              name="gender"
+              value="female"
+            />
+            Ms. <br /><br />
+            <input
+              type="text"
+              name="fname"
+              class="fname"
+              id="fname"
+              placeholder="Type your First Name"
+              size="30"
+            /><br /><br />
+            <input
+              type="text"
+              name="lname"
+              class="lname"
+              id="lname"
+              placeholder="Type your Last Name"
+              size="30"
+            /><br /><br />
+            <input
+              type="text"
+              name="nation"
+              class="nation"
+              id="nation"
+              placeholder="Type your Country Name"
+              size="30"
+            /><br /><br />
+            <input
+              type="Date"
+              name="birthdate"
+              class="birthdate"
+              id="birthdate"
+              placeholder=""
+              size="30"
+            /><br /><br />
+            <input
+              type="email"
+              name="email"
+              class="email"
+              id="email"
+              placeholder="Write your E-mail address"
+              size="30"
+            /><br /><br />
+            <input
+              type="text"
+              name="phone"
+              class="phone"
+              id="phone"
+              placeholder=" with '+' and country code"
+              size="30"
+            /><br /><br />
+            <select id="tour-types" name="tour-types">
+              <option>---</option>
+              <option value="Dhaka City & Around">Dhaka City & Around</option>
+              <option value="Photgraphy">Photgraphy Tour</option>
+              <option value="Bird Watching">Bird Watching</option>
+              <option value="Archelogical">Archelogical Sites</option>
+              <option value="Backwater">Barisal Backwater Trip</option>
+              <option value="Sylhet">Sylhet Tour</option>
+              <option value="Sundarban">Sundarban Tour</option>
+              <option value="Hill Tracks">
+                Hill Tracks & Indegenious locality
+              </option>
+              <option value="RiverSide">RiverSide Trip</option>
+              <option value="Sea Beach">Sea Beach Tour</option>
+            </select>
+            <br /><br />
+          </td>
+        </tr>
+      </table>
+      <table width="1200" height="200">
+        <tr>
+          <td width="50" height="200"></td>
+          <td width="350" height="200">
+            <label>Message :</label>
+          </td>
+          <td width="50" height="200"></td>
+          <td width="750" height="200">
+            <textarea
+              placeholder="please write as much details as possible about the service you need."
+              cols="70"
+              rows="10"
+            ></textarea
+            ><br /><br />
+            <button type="Submit">Submit</button>
+            <button type="Reset">Reset</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <!-- Form Design End-->
+  </body>
+</html>

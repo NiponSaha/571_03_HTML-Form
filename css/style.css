@@ -1,0 +1,33 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}  
+
+/* Heading CSS */
+.header {
+	width: 1200px;
+	margin: auto;
+}
+
+.header h2 {
+	color: #1b1b1b;
+	background-color: yellowgreen;
+	text-align: center;
+	padding: 30px;
+	border-top: 5px solid green;
+	border-bottom: 5px solid green;
+}
+
+.header p {
+	width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* Form CSS */
+form {
+	width: 1200px;
+	margin: auto;
+}
+
+
